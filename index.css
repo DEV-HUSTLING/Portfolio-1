@@ -1,7 +1,6 @@
 body{
     margin: 0;
     font-family: lato;
-    background-color: black;
 }
 .home{
     position: fixed;
@@ -163,6 +162,10 @@ p1{
 
 }
 @media only screen and (max-width: 860px) {
+    .home{
+        background-color: black;
+
+    }
     .heading{
         line-height: 50px;
     }
