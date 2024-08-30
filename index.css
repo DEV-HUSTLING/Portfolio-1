@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: lato;
+    background-color: black;
 }
 .home{
     position: fixed;
