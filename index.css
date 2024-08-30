@@ -197,7 +197,7 @@ p1{
    
 }
 .img-card img {
-    width: 110%;
+    width: 120%;
     border-radius: unset;
     opacity: 0.2;
 
@@ -237,5 +237,6 @@ p1{
 }
 .working{
     width: 100%;
+    padding: 2%;
 }
   }
