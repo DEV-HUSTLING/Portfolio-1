@@ -1,0 +1,16 @@
+.navigation {
+    height: 15vh;
+    background: black;
+}
+.navHeader {
+    padding-top: 5vh;
+}
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+}

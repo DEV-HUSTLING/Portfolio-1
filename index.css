@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    font-family: lato;
+}
+.home{
+    position: fixed;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 10%;
+    padding-bottom: 30%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+.main-content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 5rem;
+   
+}
+.img-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    padding: 1%;
+    border-radius: 1rem;
+    position: absolute;
+    top: 15%;
+}
+.img-card img {
+    width: 100%;
+    border-radius: 1rem;
+
+}
+.description{
+    width: 100%;
+}
+.main-img {
+    width: 75%;
+    /* height: 14vh; */
+}
+.heading h1{
+    font-size: 62px;
+}
+h2{
+    font-size: 42px;
+    color: #a4e8fe;
+    font-weight: 400;
+}
+.heading{
+    line-height: 100%;
+}
+/* Section 2 */
+.section-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    place-content: space-between;
+    margin-bottom: 10%;
+}
+/* Experinece */
+.experience{
+    overflow-x: hidden;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2%;
+}
+.academics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2%;
+}
+.working {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2%;
+}
+.card-content-header{
+    display: flex;
+    flex-direction: column;
+}
+.experience h3{
+    font-size: 28px;
+
+}
+.exp-left{
+    width: 100%;
+    text-align: center;
+
+}
+.exp-right{
+    width: 100%;
+    text-align: left;
+}
+.card-content ul{
+    line-height: 5vh;
+}
+.line{
+    width: 50%;
+
+}
+.card-skill {
+    width: 90%;
+    display: grid;
+    grid-gap: 26px;
+    grid-template-columns: repeat(auto-fill, 100px);
+}
+/* Footer */
+.footer {
+    /* border-top: solid #a7a7a7; */
+    position: absolute;
+    /* bottom: 0; */
+    width: 90%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.footer-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 20vh; */
+    padding: 1%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: max-content;
+}
+p1{
+    color: #fb7f03;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+.resumeLink{
+    float: right;
+ }
+.resumeLink a{
+    color: #006c90;
+    font-weight: bold;
+
+}
+@media only screen and (max-width: 860px) {
+    .heading{
+        line-height: 50px;
+    }
+    .main-img {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    .main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: unset;
+    padding-bottom: unset;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+.img-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    padding: 1%;
+    border-radius: unset;
+    position: absolute;
+    top: unset;
+    background-color: black;
+}
+.main-content{
+    display: flex;
+    justify-content:stretch;
+    align-items: unset;
+    gap: 5rem;
+   
+}
+.img-card img {
+    width: 110%;
+    border-radius: unset;
+    opacity: 0.2;
+
+}
+.description{
+    width: 100%;
+    color: white;
+    padding: 4%;
+}
+
+.working {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2%;
+}
+.academics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2%;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 2%;
+}
+.card-skill {
+    width: 100%;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fill, 100px);
+}
+  }
