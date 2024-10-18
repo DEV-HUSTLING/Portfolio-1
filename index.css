@@ -162,6 +162,7 @@ p1{
 
 }
 @media only screen and (max-width: 860px) {
+
     .home{
         background-color: black;
 
@@ -175,6 +176,7 @@ p1{
         z-index: -1;
     }
     .main{
+        background-color: black;
     display: flex;
     flex-direction: column;
     gap: 3rem;
